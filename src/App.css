@@ -1,0 +1,107 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home > button {
+  margin-top: 20px;
+}
+
+.MuiButton-root {
+  height: 3.5em;
+  width: 12em;
+}
+
+.header > h1 {
+  color: #358873;
+  font-size: 3em;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(175, 170, 170);
+  border-radius: 4px;
+  max-width: 50vw;
+  width: 40vw;
+  height: 2em;
+  margin-top: .5em;
+}
+
+.question > span {
+  background: gray;
+  padding: .4em .7em;
+  font-weight: 900;
+}
+
+.question > div {
+  flex: 1;
+}
+
+.createSurvey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.multiSelect {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.multiSelect__answer > input {
+  height: 1.7em;
+  width: 19.3em;
+}
+
+.multiSelect__answerList {
+  margin-top: .7em;
+  min-width: 20em;
+  display: flex;
+}
+
+.multiSelect__answerList > span {
+  padding: .3em;
+  flex: 1;
+  border: 1px solid rgb(175, 170, 170);
+  border-radius: 4px;
+}
+
+.multiSelect__answer > button,
+.multiSelect__answerList > button {
+  background: white;
+  border: 1px solid rgb(175, 170, 170);
+  border-radius: 4px;
+  color: coral;
+  font-weight: 900;
+  padding: .3em .7em;
+}
+
+.ansButton {
+  margin: .8em !important;
+  height: 2em !important;
+}
+
+.singleSelect__answerList > div{
+  width: 18em;
+  height: 1.5em;
+  border: 1px solid rgb(175, 170, 170);
+  border-radius: 4px;
+  padding: .5em;
+  margin-top: .8em;
+  cursor: pointer;
+}
+
+.ansButtonSingle {
+  margin: 2.5em 1.2em !important;
+  height: 3em !important;
+}
